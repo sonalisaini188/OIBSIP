@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+header {
+    padding: 20px;
+    background-color: #000;
+    text-align: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: linear-gradient(45deg, #0d0d0d, #1a1a1a);
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.intro-text h1 span {
+    color: #00b7ff;
+}
+
+.intro-text h2 {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #00b7ff;
+}
+
+.intro-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.buttons .hire-me {
+    background-color: #00b7ff;
+}
+
+.buttons .view-project {
+    border: 2px solid #00b7ff;
+    background: transparent;
+}
+
+.intro-image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #00b7ff, #001f3f);
+    padding: 5px;
+}
+
+.intro-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
